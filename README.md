@@ -1,4 +1,3 @@
-# Cobalt
 # Cobalt Execution Framework
 
 Cobalt is a powerful, high-performance execution framework built for stability, safety, and speed.
