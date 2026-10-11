@@ -1,94 +1,59 @@
-================================================================================
-                     END USER LICENSE AGREEMENT (EULA)
-                   AND TERMS OF SERVICE FOR COBALT CORE
-================================================================================
+# 📜 COBALT EXECUTION FRAMEWORK
+## END USER LICENSE AGREEMENT & TERMS OF SERVICE
 
-Project Name: Cobalt Execution Framework / Executor
-Developer/Licensor: Cobalt Development Team ("Licensor")
-Effective Date: October 11, 2026
+> **CRITICAL LEGAL NOTICE:** READ CAREFULLY BEFORE DOWNLOADING, INSTALLING, COPYING, OR USING THE COBALT SOFTWARE FRAMEWORK, EXECUTABLE BINARIES, LOADERS, OR ASSOCIATED ASSETS.
 
-PLEASE READ THIS END USER LICENSE AGREEMENT ("AGREEMENT") CAREFULLY BEFORE 
-DOWNLOADING, INSTALLING, EXECUTING, OR USING THE COBALT SOFTWARE FRAMEWORK, 
-LOADERS, BINARIES, OR ASSOCIATED DOCUMENTATION ("SOFTWARE").
+---
 
-BY DOWNLOADING, EXECUTING, OR USING ANY PORTION OF THIS SOFTWARE, YOU AGREE 
-TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE 
-TO THESE TERMS, DO NOT DOWNLOAD, INSTALL, EXECUTE, OR USE THE SOFTWARE.
+## 📑 TABLE OF CONTENTS
+1. [Grant of License](#1-grant-of-license)
+2. [Comprehensive Restrictions & Prohibited Conduct](#2-comprehensive-restrictions--prohibited-conduct)
+3. [Intellectual Property & Ownership](#3-intellectual-property--ownership)
+4. [Hardware Locking, Telemetry & Security Enforcement](#4-hardware-locking-telemetry--security-enforcement)
+5. [Termination & Access Revocation](#5-termination--access-revocation)
+6. [Disclaimer of Warranties & Limitation of Liability](#6-disclaimer-of-warranties--limitation-of-liability)
+7. [Amendments & Final Terms](#7-amendments--final-terms)
 
---------------------------------------------------------------------------------
-1. GRANT OF PROPRIETARY LICENSE
---------------------------------------------------------------------------------
-Subject to strict compliance with this Agreement, Licensor grants you a 
-revocable, non-exclusive, non-transferable, non-sublicensable, limited personal 
-license to run and execute the Software strictly on designated hardware devices 
-authenticated via authorized hardware ID (HWID) verification mechanisms.
+---
 
---------------------------------------------------------------------------------
-2. COMPREHENSIVE RESTRICTIONS & PROHIBITED CONDUCT
---------------------------------------------------------------------------------
-You strictly agree that you shall NOT, directly or indirectly, under any 
-circumstance or via any third-party tool, script, or framework:
+## 1. GRANT OF LICENSE
 
-  2.1 REVERSE ENGINEERING & DECOMPILATION:
-      Decompile, disassemble, reverse engineer, dump, de-obfuscate, hook, trace, 
-      intercept, or otherwise attempt to derive or reconstruct the source code, 
-      underlying algorithms, bytecode structures, execution pipelines, or security 
-      mechanisms of the Software or any of its sub-modules.
+Subject to your strict compliance with all terms and conditions set forth in this Agreement, the **Cobalt Development Team** ("Licensor") grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable personal license to download, install, and execute the Cobalt application solely on Windows operating systems authenticated via designated hardware identification (HWID) systems.
 
-  2.2 INTELLECTUAL PROPERTY THEFT & ASSET COPYING:
-      Copy, extract, duplicate, mirror, repurpose, or rebrand any component of 
-      the Software, including but not limited to Luau scripts, C++ dynamic-link 
-      libraries (.dll), executable binaries (.exe), custom user interfaces, graphics, 
-      branding assets, or custom execution methods.
+* **Scope of Permitted Use:** Personal, non-commercial execution of approved scripts.
+* **Exclusivity:** This license is granted strictly to you as an individual user and cannot be assigned, transferred, or shared.
 
-  2.3 REDISTRIBUTION & UNAUTHORIZED ACCESS:
-      Sell, lease, rent, sublicense, assign, host, re-upload, leak, or otherwise 
-      distribute the Software, raw loader code, API endpoints, auth tokens, or 
-      redemption keys to any unverified third party or public repository.
+---
 
-  2.4 SECURITY TAMPERING & BYPASSING:
-      Bypass, modify, spoof, exploit, or disable any built-in licensing checks, 
-      hardware-ID (HWID) binding protocols, anti-tamper systems, rate limiters, 
-      or server-side authentication payloads.
+## 2. COMPREHENSIVE RESTRICTIONS & PROHIBITED CONDUCT
 
-  2.5 UNSANCTIONED FRAUD & RE-BRANDING:
-      Claim authorship, co-ownership, or copyright credit over any portion of 
-      the Software or represent modified variants of the Software as official 
-      Cobalt releases.
+You explicitly agree that you shall **NOT**, under any circumstances, directly or indirectly perform, facilitate, or assist in any of the following restricted actions:
 
---------------------------------------------------------------------------------
-3. OWNERSHIP & INTELLECTUAL PROPERTY RIGHTS
---------------------------------------------------------------------------------
-The Software is licensed, not sold. All right, title, ownership, copyright, 
-trade secrets, and intellectual property rights in and to the Software—including 
-all code, UI frames, internal mechanics, modules, updates, and documentation—
-remain exclusively with the Licensor. Nothing in this Agreement grants you any 
-ownership rights or legal claims to the core Software or derivative works.
+### 🚫 Prohibited Actions Matrix
 
---------------------------------------------------------------------------------
-4. ACCESS REVOCATION & AUTOMATED TERMINATION
---------------------------------------------------------------------------------
-Licensor reserves the absolute right to revoke, suspend, or terminate your license 
-and blacklist your HWID, user identity, and key access immediately and without 
-prior notice if:
-  (a) Any breach or attempted breach of this Agreement is detected or suspected.
-  (b) Telemetry or automated security checks identify active decompilation, network 
-      sniffing, or unauthorized execution environments.
-  (c) You engage in unauthorized distribution or secondary sharing of access credentials.
+| Category | Forbidden Action | Consequence |
+| :--- | :--- | :--- |
+| **Code Theft & Reverse Engineering** | Decompiling, dumping memory, disassembling, de-obfuscating, hooking, or extracting source code/bytecode. | **Immediate Permanent HWID Blacklist** |
+| **Unlawful Redistribution** | Selling, reselling, re-hosting, leaking, sharing, or sublicensing `.exe` binaries, loaders, or access keys. | **Key Termination & Public Blacklist** |
+| **Security Tampering** | Bypassing anti-tamper, spoofing hardware signatures, stripping protection layers, or sniffing network API payloads. | **Automated Account Revocation** |
+| **Plagiarism & Rebranding** | Modifying user interfaces, logos, or metadata to claim authorship or co-ownership of the Cobalt framework. | **Immediate Permanent Blacklist** |
 
-Upon termination, all licenses granted under this Agreement instantly cease, and 
-you must destroy all local copies, loader files, and assets of the Software in 
-your possession.
+---
 
---------------------------------------------------------------------------------
-5. NO WARRANTY & LIMITATION OF LIABILITY
---------------------------------------------------------------------------------
-5.1 "AS IS" PROVIDER DISCLAIMER:
-    THE SOFTWARE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT 
-    WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
-    WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND 
-    NON-INFRINGEMENT.
+## 3. INTELLECTUAL PROPERTY & OWNERSHIP
 
-5.2 EXCLUSION OF DAMAGES:
-    IN NO EVENT SHALL THE LICENSOR OR DEVELOPERS BE LIABLE FOR ANY SPECIAL, 
-    INCIDENTAL, INDIRECT, CONSEQU
+* **Licensor Retained Rights:** The Software is licensed, **NOT SOLD**. All title, copyright, trade secrets, patents, UI designs, brand assets, C++ core components, and Luau execution modules remain the exclusive intellectual property of the Cobalt Development Team.
+* **No Implied Rights:** Nothing in this Agreement shall be construed as conferring any ownership rights, claims, or title to the underlying source code or system architecture.
+
+---
+
+## 4. HARDWARE LOCKING, TELEMETRY & SECURITY ENFORCEMENT
+
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│                        SECURITY PROTOCOL ACTIVE                        │
+├────────────────────────────────────────────────────────────────────────┤
+│  • HWID Binding: Access is cryptographically tied to your system.      │
+│  • Anti-Debugging: Active protection monitors for memory inspection.  │
+│  • Automated Telemetry: Integrity breaches trigger auto-revocation.    │
+└────────────────────────────────────────────────────────────────────────┘
